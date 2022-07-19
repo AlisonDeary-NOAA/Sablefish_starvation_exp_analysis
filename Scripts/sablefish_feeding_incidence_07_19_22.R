@@ -8,9 +8,11 @@ library(dplyr)
 library(tidyverse)
 library(lubridate)
 
-getwd()
- here("data", "2022_rearing_metadata_sampling_spreadsheet.csv")
- list.files("data")
+
+ here("data_raw", "2022_rearing_metadata_sampling_spreadsheet.csv")
+ 
+ 
+list.files("data_raw")
 sab <- read.csv(here("data", "2022_rearing_metadata_sampling_spreadsheet.csv"))
 
 sab=read.csv("C:/Users/aldea/Documents/NOAA_FOCI/Sablefish/NPRB Project/2022_rearing/Sablefish_starvation_experiments/data/2022_rearing_metadata_sampling_spreadsheet.csv")
